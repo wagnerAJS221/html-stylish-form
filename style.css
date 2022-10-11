@@ -2,17 +2,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(
-    to right,
-    rgb(139, 19, 115),
-    rgb(48, 18, 214)
-  );
+  background-image: linear-gradient(to right, rgb(139, 19, 115), rgb(48, 18, 214));
   font-family: sans-serif;
 }
 h1 {
   margin: auto;
   width: 400px;
   text-align: center;
+  font-size: xx-large;
 }
 .container {
   display: flex;
@@ -30,6 +27,7 @@ form {
 
   background-color: white;
   border-radius: 10px;
+  
 }
 
 div {
@@ -43,43 +41,39 @@ input[type='text'] {
 }
 
 input[type='email'] {
-  border: none;
-  border-bottom: 2px solid grey;
-}
-#service {
-  border: none;
-  border-bottom: 2px solid grey;
-}
-#budget {
-  border: none;
-  border-bottom: 2px solid grey;
-}
-#message {
-  border: none;
-  border-bottom: 2px solid grey;
+    border: none;
+    border-bottom: 2px solid grey;
+  }
+  #service {
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: large;
+  }
+  #budget {
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: large;
+  }
+  #message{
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: large;
+  }
+
+  input[type= 'submit'] {
+    background-image: linear-gradient(to left, rgb(11, 82, 103), rgb(49, 174, 228));
+    border: 0;
+    border-radius: 25px; 
+    width: 200px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-input[type='submit'] {
-  background-image: linear-gradient(
-    to left,
-    rgb(11, 82, 103),
-    rgb(49, 174, 228)
-  );
-  border: 0;
-  border-radius: 25px;
-  width: 200px;
-  height: 40px;
-  margin-right: auto;
-  margin-left: auto;
+#name{
+    font-size: large;
 }
 
-option:not(:first-of-type) {
-  color: rgba(251, 8, 8, 0.722);
+#email{
+    font-size: large;
 }
-select {
-  color: rgb(0, 0, 0);
-}
-
-/* .standard-option {
-  color: red;
-} */
