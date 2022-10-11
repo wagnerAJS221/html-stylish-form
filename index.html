@@ -26,14 +26,31 @@
           placeholder="Enter your email address here"
         />
 
-        <label for="service">Your Needed Services</label>
+        <label for="service" id="services">Your Needed Services</label>
         <select name="Service" id="service" placeholder="Choose service">
-          service needed
+          <option value="" disabled selected hidden>
+            Choose Service required
+          </option>
+          <option value="House Saver">House Saving</option>
+          <option value="Car Saver">Car saving</option>
+          <option value="Wedding Saver">Wedding saving</option>
         </select>
 
         <label for="budget">Budget</label>
-        <select name="budget" id="budget" placeholder="Select Budget">
-          budget
+        <select name="budget" id="budget">
+          <option
+            value=""
+            disabled
+            selected
+            hidden
+            class="standard-option"
+            id="standard-option"
+          >
+            Pick saving option
+          </option>
+          <option value="Big saver">maxium savings</option>
+          <option value="10% saver">miniumum savings</option>
+          <option value="25% bag for your buck!">bang savings</option>
         </select>
 
         <label for="message">Message</label>

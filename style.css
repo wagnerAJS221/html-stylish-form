@@ -2,7 +2,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(to right, rgb(139, 19, 115), rgb(48, 18, 214));
+  background-image: linear-gradient(
+    to right,
+    rgb(139, 19, 115),
+    rgb(48, 18, 214)
+  );
   font-family: sans-serif;
 }
 h1 {
@@ -39,29 +43,43 @@ input[type='text'] {
 }
 
 input[type='email'] {
-    border: none;
-    border-bottom: 2px solid grey;
-  }
-  #service {
-    border: none;
-    border-bottom: 2px solid grey;
-  }
-  #budget {
-    border: none;
-    border-bottom: 2px solid grey;
-  }
-  #message{
-    border: none;
-    border-bottom: 2px solid grey;
-  }
-
-  input[type= 'submit'] {
-    background-image: linear-gradient(to left, rgb(11, 82, 103), rgb(49, 174, 228));
-    border: 0;
-    border-radius: 25px; 
-    width: 200px;
-    height: 40px;
-    margin-right: auto;
-    margin-left: auto;
-
+  border: none;
+  border-bottom: 2px solid grey;
 }
+#service {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+#budget {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+#message {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+input[type='submit'] {
+  background-image: linear-gradient(
+    to left,
+    rgb(11, 82, 103),
+    rgb(49, 174, 228)
+  );
+  border: 0;
+  border-radius: 25px;
+  width: 200px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+option:not(:first-of-type) {
+  color: rgba(251, 8, 8, 0.722);
+}
+select {
+  color: rgb(0, 0, 0);
+}
+
+/* .standard-option {
+  color: red;
+} */
